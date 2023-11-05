@@ -13,7 +13,7 @@ galleryItems.forEach((item) => {
         alt="${item.description}"
       >
     </a>
-  </li/`;
+  </li>`;
 
   galleryLIstEl.insertAdjacentHTML("beforeend", markup);
 });
